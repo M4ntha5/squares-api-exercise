@@ -1,4 +1,14 @@
 # Squares API
+
+
+### Instructions how to launch
+* Download and install postgres15
+* Download and install Docker and docker compose
+* cd into projects docker folder and run `docker compose -f docker-compose.testing.yml -f docker-compose.yml up`
+* Run Squares Api
+* Access endpoint in `http://localhost:5044/swagger/index.html`
+
+
 ## Problem Definition
 ### The bigger picture
 The Squares solution is designed to enable our enterprise consumers to identify squares from coordinates and thus make the world a better place.
@@ -13,8 +23,6 @@ Create an API that from a given set of points in a 2D plane - enables the consum
 ### Example of a list of points that make up a square:
 ```[(-1;1), (1;1), (1;-1), (-1;-1)]```
 
-### API request/response contracts
-Up to you! Design API contracts how you desire - as long as the UI team can use the API to solve user's problems.
 
 ## Requirements
 ### Functional
@@ -39,11 +47,3 @@ Up to you! Design API contracts how you desire - as long as the UI team can use 
 * Measuring SLI's
 * Considerations for scalability of the API
 * Comments/thoughts on the decisions you made
-
-### A quick tip:
-Don't reinvent the wheel when it comes to identifying squares. There are plenty of existing solutions to the problem online!
-
-## The time for the solution
-Take *as long as you need* on the solution but we suggest to limit yourself at 8 hours. Do let us know how much time it took you!
-
-The task is not made to be completed in the period of 8 hours and no one expects you to! However, knowing how much time you spent and seeing the solution you came up with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
