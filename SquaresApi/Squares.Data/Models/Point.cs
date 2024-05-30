@@ -14,6 +14,7 @@ public class Point : IdBasedEntity
     }
     //test
     //test 1
+    //test 2
    
     // distance from current point to given point
     public int Distance(Point point)
